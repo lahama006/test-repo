@@ -112,6 +112,15 @@ def ex():
   print(x)
 ex()
 
+#sum of the numbers in an array using function
+def array():
+  a=[2,4,6,8,10,12,14,16,18,20]
+  sum=0
+  for i in a:
+      sum=sum+i
+  print(sum)
+array()
+
 
 
 
